@@ -1,0 +1,31 @@
+.list {
+  list-style-type: none;
+}
+
+nav {
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.primary {
+  background-color: blueviolet !important;
+}
+.navDivRight{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navDivRight ul{
+  justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    .navDivRight{
+      display: none !important;
+    }
+}

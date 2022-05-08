@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#homePage {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+* {
+  font-family: Poppins;
+}
+
+#leftBoxTop{
+  margin-bottom: 40px;
+}
+
+#leftBoxTop h1,
+h2,
+h4 {
+  text-align: left !important;
+  line-height: 38px;
+}
+#leftBoxTop p {
+  text-align: left !important;
+  line-height: 20px;
+  font-family: Poppins;
+}
+#homeImg {
+  height: 500px !important;
+}
+
+.homeImg2 {
+  position: absolute;
+  left: 720px;
+  top: 240px;
+  height: 400px;
+}
+.homeImg3 {
+  position: absolute;
+  left: 1090px;
+  top: 370px;
+  z-index: 7;
+}
+.homeImg4 {
+  position: absolute;
+  left: 1090px;
+  top: 570px;
+  z-index: 7;
+}
+
+.homeImg5 {
+  position: absolute;
+  left: 900px;
+  top: 130px;
+}
+.homeImg6 {
+  position: absolute;
+  left: 832px;
+  top: 130px;
+}
+
+#homeBtn1 {
+  border: 2px solid blueviolet;
+  background-color: blueviolet;
+}
+
+#homeBtn2 {
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+}
+
+#homeBtn2:hover {
+  background-color: blueviolet;
+  color: white;
+  transition: 0.5s;
+}
+
+#homeBtn1:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+button:focus-visible {
+  box-shadow: none;
+  border: none;
+}
+
+@media (max-width: 990px) {
+  #rightBox {
+    display: none;
+  }
+  .col-6 {
+    width: 90% !important;
+    margin: auto;
+  }
+  .w-50 {
+    width: 100% !important;
+    margin: auto;
+    text-align: left;
+  }
+}
+
