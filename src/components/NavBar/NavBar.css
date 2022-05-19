@@ -8,24 +8,26 @@ nav {
 
 a {
   text-decoration: none !important;
-  color: white !important;
+  color: black !important;
 }
 
-.primary {
-  background-color: blueviolet !important;
+.primary,
+#contactBtn {
+  background-color: rgb(226, 18, 18) !important;
+  color: white;
 }
-.navDivRight{
+.navDivRight {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.navDivRight ul{
+.navDivRight ul {
   justify-content: space-around;
 }
 
 @media (max-width: 768px) {
-    .navDivRight{
-      display: none !important;
-    }
+  .navDivRight {
+    display: none !important;
+  }
 }

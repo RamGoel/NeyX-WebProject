@@ -45,7 +45,9 @@ class NavBar extends React.Component {
               </li>
             </ul>
 
-            <button className="btn btn-light rounded px-4">Contact</button>
+            <button className="btn rounded px-4" id="contactBtn">
+              Contact
+            </button>
           </div>
         </div>
       </nav>
