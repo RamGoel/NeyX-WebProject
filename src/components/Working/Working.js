@@ -13,32 +13,52 @@ export default class Working extends React.Component {
           <h1>How it Work</h1>
           <p>Most simple and light to follow to add neyX in your store.</p>
         </div>
-        <div className="flowDiag">
-          <div className="diagItem">
-            <img src="" alt="" />
-            <div>
-              <i className="itemIcon"></i>
+        <div className="d-flex flex-column  justify-content-center">
+          <div className="d-flex align-items-center my-3 justify-content-around w-50 mx-auto">
+            <img
+              src="https://i.ibb.co/C9RzbLt/monitoring.png"
+              alt="monitoring"
+              border="0"
+              className="workImage"
+            />
+            <p className="itemIcon">1</p>
+            <div className="w-50">
               <p>You tell us the price range.</p>
             </div>
           </div>
-          <div className="diagItem">
-            <img src="" alt="" />
-            <div>
-              <i className="itemIcon"></i>
+          <div className="d-flex align-items-center my-3 justify-content-around w-50 mx-auto">
+            <img
+              src="https://i.ibb.co/GMPyJWv/price-tag.png"
+              alt="price-tag"
+              border="0"
+              className="workImage"
+            />
+            <p className="itemIcon">1</p>
+            <div className="w-50">
               <p>We set up the bot</p>
             </div>
           </div>
-          <div className="diagItem">
-            <img src="" alt="" />
-            <div>
-              <i className="itemIcon"></i>
+          <div className="d-flex align-items-center my-3 justify-content-around w-50 mx-auto">
+            <img
+              src="https://i.ibb.co/RGF28q0/robot.png"
+              alt="robot"
+              border="0"
+              className="workImage"
+            />
+            <p className="itemIcon">1</p>
+            <div className="w-50">
               <p>Let your customer haggle</p>
             </div>
           </div>
-          <div className="diagItem">
-            <img src="" alt="" />
-            <div>
-              <i className="itemIcon"></i>
+          <div className="d-flex align-items-center my-3 justify-content-around w-50 mx-auto">
+            <img
+              src="https://i.ibb.co/KjKgTyd/team.png"
+              alt="team"
+              border="0"
+              className="workImage"
+            />
+            <p className="itemIcon">1</p>
+            <div className="w-50">
               <p>Monitor it from our dashboard</p>
             </div>
           </div>

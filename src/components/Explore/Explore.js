@@ -8,17 +8,19 @@ export default class Explore extends React.Component {
 
   render() {
     return (
-      <div className="container my-auto" id="explorePage ">
-        <div className={this.props.data.position}>
-          <div className="left col-6">
-            <h3 className="">{this.props.data.title}</h3>
-            <p className="">{this.props.data.text}</p>
-            <button className="btn btn-danger">
-              {this.props.data.btnText}
-            </button>
-          </div>
-          <div className="right col-6 text-center">
-            <img classsName="w-100" src={this.props.data.url} />
+      <div className="px-3 ">
+        <div className="container-fluid mx-3 my-auto" id="explorePage ">
+          <div className={this.props.data.position}>
+            <div className="left col-6">
+              <h3 className="">{this.props.data.title}</h3>
+              <p className="">{this.props.data.text}</p>
+              <button className="btn btn-danger">
+                {this.props.data.btnText}
+              </button>
+            </div>
+            <div className="right col-6 d-flex bg-dark justify-content-end">
+              <img width="70%" src={this.props.data.url} />
+            </div>
           </div>
         </div>
       </div>

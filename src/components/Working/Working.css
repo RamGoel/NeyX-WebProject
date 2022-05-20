@@ -1,0 +1,11 @@
+.workImage {
+  width: 80px;
+}
+.itemIcon{
+  background-color: rgb(255, 197, 255);
+  color: black;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 200px;
+}

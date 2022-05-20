@@ -7,6 +7,8 @@ import Features from './components/Features/Features';
 import Facts from './components/Facts/Facts';
 import Explore from './components/Explore/Explore';
 import FAQ from './components/FAQ/FAQ';
+import Testo from './components/Testimonial/Testo';
+import Footer from './components/Footer/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 let data = {
@@ -36,6 +38,8 @@ export default function App() {
       <Explore data={data.explore1} />
       <Explore data={data.explore2} />
       <FAQ />
+      <Testo />
+      <Footer />
     </div>
   );
 }

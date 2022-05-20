@@ -1,3 +1,7 @@
 .faqContain .foot {
   align-items: flex-end;
 }
+
+#faqContain{
+  background-color: rgb(236, 234, 234);
+}
