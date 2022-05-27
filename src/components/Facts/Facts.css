@@ -2,6 +2,11 @@
   color: red;
 }
 
-#metricContain{
+#metricContain {
   margin-top: 100px;
 }
+
+.para {
+  width: 65%;
+}
+

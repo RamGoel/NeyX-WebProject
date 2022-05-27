@@ -67,7 +67,7 @@ export default class FAQ extends React.Component {
 
   render() {
     return (
-      <div className="container faqContain">
+      <div className="container faqContain py-4">
         <h1 className=" text-center container">Frequently Asked Questions</h1>
         <div className="faqItemDiv cntainer">
           {this.state.data.map((elem) => (

@@ -18,7 +18,7 @@ export default class Explore extends React.Component {
                 {this.props.data.btnText}
               </button>
             </div>
-            <div className="right col-6 d-flex bg-dark justify-content-end">
+            <div className="right col-6 d-flex justify-content-end">
               <img width="70%" src={this.props.data.url} />
             </div>
           </div>
